@@ -40,9 +40,7 @@ const setActiveLinkClass = (linkClass) => {
     <RouterLink to="/work" :class="activeLinkClass === 'projects' ? 'active' : ''" @click="setActiveLinkClass('projects')">
       Projects
     </RouterLink>
-    <RouterLink to="/contact" :class="activeLinkClass === 'contact' ? 'active' : ''" @click="setActiveLinkClass('contact')">
-      Contact
-    </RouterLink>
+  
   </nav>
       </header>
       <RouterView />
