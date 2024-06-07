@@ -21,6 +21,8 @@ import graph from "../assets/graph.png"
 import illumi from "../assets/ILL.png"
 import display from "../assets/display.jpg"
 import recruiting from "../assets/recr.png"
+import still from "../assets/still.png"
+import thes from "../assets/thesss.png"
 
 export default {
   data() {
@@ -51,7 +53,7 @@ export default {
 	
 	{
           id: 4,
-          image: recruiting,
+          image: thes,
           title: "Bachelor Thesis",
           description: "Evaluated the cost-effectiveness of IaaS and PaaS by assessing setup costs, operational expenses, scalability, and deployment complexities.",
           link: "https://github.com/Gaasll/BachelorThesis2024",
@@ -59,7 +61,7 @@ export default {
 
 	{
           id: 5,
-          image: recruiting,
+          image: still,
           title: "Stillsamhetens SPA",
           description: "A website for Stillsamhetens SPA, focusing on functional design and user experience using Wordpress, GIMP and HTML/CSS.",
           link: "https://medieproduktion.lnu.se/1mp162-ht23-ga222qp/",
