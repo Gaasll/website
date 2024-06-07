@@ -48,30 +48,45 @@ export default {
           description: "A robust recruitment system using modern technologies such as Node.js, Express, Next.js, React, TypeScript, and PostgreSQL.",
           link: "https://github.com/danti58/Frontend_IV1201",
         },
-     
-        {
+	
+	{
           id: 4,
+          image: recruiting,
+          title: "Bachelor Thesis",
+          description: "Evaluated the cost-effectiveness of IaaS and PaaS by assessing setup costs, operational expenses, scalability, and deployment complexities.",
+          link: "https://github.com/Gaasll/BachelorThesis2024",
+        },
+
+	{
+          id: 5,
+          image: recruiting,
+          title: "Stillsamhetens SPA",
+          description: "A website for Stillsamhetens SPA, focusing on functional design and user experience using Wordpress, GIMP and HTML/CSS.",
+          link: "https://medieproduktion.lnu.se/1mp162-ht23-ga222qp/",
+        },
+        {
+          id: 6,
           image: snake,
           title: "Snake Game",
           description: "A simple snake game for UNO32 with Basic I/O Shield.",
           link: "https://github.com/Gaasll/OperationsInt" ,
         },
         {
-          id: 5,
+          id: 7,
           image: display,
           title: "Social Security Number",
           description: "Using Arduino Uno and a breadboard got my social security number on a 7-segment display.",
           //link: "images/display.jpg" ,
         },
         {
-          id: 6,
+          id: 8,
           image: graph,
           title: "Soundgood Music School",
           description: "Planned and developed a database that handles a schools data using SQL and pgAdmin.",
           link: "https://github.com/Gaasll/Data_Storage_Project",
         },
         {
-          id: 7,
+          id: 9,
           image: short,
           title: "The Shortest Path",
           description: "Created a memory-efficient algorithm that finds the shortest distance between X and Y.",
