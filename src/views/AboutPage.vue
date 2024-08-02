@@ -87,7 +87,7 @@
 }
 
 .intro-section {
-  background-color: #f8f5f5;
+  background-color: #201e23;
   color: #ecf0f1;
   padding: 20px;
   border-radius: 8px;
