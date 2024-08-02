@@ -12,7 +12,7 @@
     <div class="details-section">
       <h3>Education:</h3>
       <p>
-        I earned my Bachelor of Science in Computer Engineering from KTH, where I studied a wide range of subjects including processors, programming, computer networks, databases, and security. My education also included a focus on cloud services and IoT, enhanced by diverse coursework such as:
+        Bachelor of Science in Computer Engineering from KTH, where I studied a wide range of subjects including processors, programming, computer networks, databases, and security. My education also included a focus on cloud services and IoT, enhanced by diverse coursework such as:
       </p>
       <ul>
         <li>Engineering Skills</li>
@@ -20,14 +20,15 @@
         <li>Computer Hardware Engineering</li>
         <li>Algorithms & Data Structures</li>
         <li>Network & Communication</li>
-        <li>Networking Architectures (during my exchange semester at Universitat Politècnica de València)</li>
+        <li>Networking Architectures</li>
       </ul>
       <h3>Skills:</h3>
       <ul>
         <li>Programming: C, Java, JavaScript, Node.js, HTML/CSS</li>
         <li>Data Analysis and Algorithms</li>
         <li>DevOps and SQL</li>
-        <li>Functional Programming and Project Methods</li>
+        <li>Functional Programming </li>
+        <li>Scrum & Project Methods </li>
         <li>UI/UX Design and Communication</li>
       </ul>
       <h3>Professional Experience:</h3>
@@ -86,7 +87,7 @@
 }
 
 .intro-section {
-  background-color: #2c3e50;
+  background-color: #f8f5f5;
   color: #ecf0f1;
   padding: 20px;
   border-radius: 8px;
