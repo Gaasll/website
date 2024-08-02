@@ -1,13 +1,15 @@
 <template>
   <div class="about">
-    <h1>My name is Garabet Aslo, but you can call me Garo.</h1>
-    <div>
+    <div class="intro-section">
+      <h1>My name is Garabet Aslo, but you can call me Garo.</h1>
       <p>
         I am a social person who likes to take initiatives. I have a big passion for traveling, but usually, all I do is spend my time staring at a computer screen.
       </p>
       <p>
         In the projects section, you will find my experience in Computer Science - and it is forever growing! Below each project, I have links to all of my research and code.
       </p>
+    </div>
+    <div class="details-section">
       <h3>Education:</h3>
       <p>
         I earned my Bachelor of Science in Computer Engineering from KTH, where I studied a wide range of subjects including processors, programming, computer networks, databases, and security. My education also included a focus on cloud services and IoT, enhanced by diverse coursework such as:
@@ -29,24 +31,24 @@
         <li>UI/UX Design and Communication</li>
       </ul>
       <h3>Professional Experience:</h3>
-      <p>
+      <div class="experience">
         <strong>Shift Leader at ICA Maxi Stormarknad Lindhagen, Stockholm (August 2019 - Present)</strong>
-      </p>
-      <p>
-        In this role, I lead a team of 8-10 staff, ensuring efficient store operations and delivering exceptional customer service. My responsibilities include personnel management, scheduling, and training, as well as maintaining inventory control and store standards.
-      </p>
-      <p>
+        <p>
+          In this role, I lead a team of 8-10 staff, ensuring efficient store operations and delivering exceptional customer service. My responsibilities include personnel management, scheduling, and training, as well as maintaining inventory control and store standards.
+        </p>
+      </div>
+      <div class="experience">
         <strong>Case Officer at Försäkringskassan, Stockholm (September 2019 - December 2021)</strong>
-      </p>
-      <p>
-        I managed and processed a diverse range of cases, providing comprehensive assistance to clients and collaborating with various departments and external partners. This role honed my communication and problem-solving skills, contributing to a responsible and efficient work environment.
-      </p>
-      <p>
+        <p>
+          I managed and processed a diverse range of cases, providing comprehensive assistance to clients and collaborating with various departments and external partners. This role honed my communication and problem-solving skills, contributing to a responsible and efficient work environment.
+        </p>
+      </div>
+      <div class="experience">
         <strong>Bachelor Thesis at Northab (March 2024 - June 2024)</strong>
-      </p>
-      <p>
-        For my thesis, I investigated the cost-effectiveness of Infrastructure as a Service (IaaS) and Platform as a Service (PaaS) by analyzing various factors and conducting a case study deploying a recruiting system on multiple cloud platforms. My findings offer insights into optimizing cloud deployment strategies for businesses.
-      </p>
+        <p>
+          For my thesis, I investigated the cost-effectiveness of Infrastructure as a Service (IaaS) and Platform as a Service (PaaS) by analyzing various factors and conducting a case study deploying a recruiting system on multiple cloud platforms. My findings offer insights into optimizing cloud deployment strategies for businesses.
+        </p>
+      </div>
       <h3>Certifications:</h3>
       <p>
         Certificate of Global Competence from KTH Royal Institute of Technology, recognized for proficiency in navigating diverse cultural environments and international settings.
@@ -65,7 +67,7 @@
         Feel free to explore my <a href="#">LinkedIn</a> and <a href="#">Portfolio</a> for more information. Thank you for visiting my page, and I look forward to connecting with you.
       </p>
     </div>
-    <img src="../assets/code.svg" alt="Coding illustration" />
+    <img src="../assets/code.svg" alt="Coding illustration" class="about-img" />
   </div>
 </template>
 
@@ -78,78 +80,106 @@
 
 .about {
   padding: 20px;
-  background-color: #FFFFFF;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+.intro-section {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
 }
 
 h1 {
-  font-size: 25px;
-  color: #201e23;
-  margin: 2%;
+  font-size: 32px;
+  margin-bottom: 10px;
 }
 
 p {
-  font-size: 15px;
-  color: #201e23;
+  font-size: 18px;
+  margin-bottom: 15px;
 }
 
 h3 {
-  font-size: 15px;
-  color: #201e23;
+  font-size: 24px;
   margin-top: 20px;
+  margin-bottom: 10px;
+  color: #2980b9;
 }
 
 ul {
-  font-size: 15px;
-  color: #201e23;
+  font-size: 18px;
   margin-left: 20px;
+  list-style: disc;
 }
 
-img {
-  margin-left: 13%;
+.experience {
+  margin-bottom: 20px;
+}
+
+strong {
+  font-size: 20px;
+  color: #34495e;
+}
+
+a {
+  color: #2980b9;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #3498db;
+}
+
+.about-img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (max-width: 767px) {
-  .header-container {
-    grid-template-columns: 1fr;
-    row-gap: 20px;
-  }
-
-  .header-text {
+  .intro-section {
     text-align: center;
   }
 
-  .header-image {
-    justify-self: center;
-  }
-
   h1 {
-    font-size: 20px;
+    font-size: 24px;
   }
 
   p,
   h3,
-  ul {
-    font-size: 13px;
+  ul,
+  strong {
+    font-size: 16px;
   }
 
-  .container {
-    width: 100%;
-    height: 300px;
-  }
-
-  .word {
-    font-size: 10px;
-  }
-
-  img {
+  .about-img {
     height: 80%;
     width: 80%;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .header-text {
-    margin-left: 50px;
+  .intro-section {
+    padding: 40px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  p,
+  h3,
+  ul,
+  strong {
+    font-size: 18px;
   }
 }
 </style>
