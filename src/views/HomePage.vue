@@ -3,9 +3,9 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <div class="header-container">
     <div class="header-text">
-      <h1>Hi, I'm <strong>Garabet</strong>, CS-student at KTH in Kista.<br /></h1>
-      <p>My ambitions are within technology and engineering.<br />
-        I am fascinated about programming and exploring new CS fields.</p>
+      <h1>Hi, I'm <strong>Garabet</strong>, computer engineering student at KTH in Kista.<br /></h1>
+      <p>My ambitions are within technology and engineering, with a robust foundation in programming, IT, and cloud services. <br />
+        Throughout my academic journey and practical work experiences, I have cultivated a diverse skill set that blends technical expertise with strong leadership, analytical and problem-solving abilities.</p>
      <a href="https://www.linkedin.com/in/garabetaslo/" target="_blank">
             <img class="icon" src="../assets/in.svg" > </a> &nbsp;
               <a href="https://github.com/Gaasll" target="_blank">
