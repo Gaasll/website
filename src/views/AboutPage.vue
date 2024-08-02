@@ -167,6 +167,10 @@ a:hover {
 }
 
 @media screen and (min-width: 768px) {
+  .about {
+    padding: 20px 100px;
+  }
+  
   .intro-section {
     padding: 40px;
   }
