@@ -7,7 +7,7 @@
         spend my time staring at a computer screen.
       </p>
       <p>
-        In the <a href="/work" style="color: white;">projects section</a>, you will
+        In the <a style="color: white; font-weight: bold;">projects section</a>, you will
         find my
         experience in Computer Science
         - and it is forever growing! Below each
